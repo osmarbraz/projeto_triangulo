@@ -10,6 +10,7 @@ public class Principal {
         altura = Double.parseDouble(JOptionPane.showInputDialog("Digite a altura"));
         //Processamento
         area = (base * altura)/2.0;
+        //Saída
         JOptionPane.showMessageDialog(null,"A área é " + area);        
     }
 }
